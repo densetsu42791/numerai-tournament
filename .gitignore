@@ -1,0 +1,22 @@
+# Игнорировать всё
+*
+
+# Разрешить только нужные файлы
+!Baseline_Optuna.ipynb
+!Preparing_Datasets.ipynb
+!.gitignore
+!README.md
+
+# Явно игнорировать
+*.parquet
+*.pkl
+*.pyc
+.ipynb_checkpoints/
+__pycache__/
+data/
+*.csv
+*.zip
+*.py
+*.json
+.DS_Store
+Thumbs.db
